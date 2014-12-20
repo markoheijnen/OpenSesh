@@ -1,0 +1,131 @@
+.nodejs-down p:after, .channels:after, .youtube-search:before, .youtube-search:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+.nodejs-down .button {
+	float: right;
+	margin: -5px 0 -4px;
+}
+
+
+
+.channel {
+	background: #fff;
+	background: rgba(255,255,255,.65);
+	border: 1px solid #dedede;
+	float: left;
+	margin: 0 4% 4% 0;
+	width: 48%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.channels .channel:nth-child(even) {
+	margin-right: 0;
+}
+
+.channel h4 {
+	background: rgba(233,233,233,.7);
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.channel-movie {
+	min-height: 150px;
+}
+
+.channel-input {
+	border-top: 1px solid #dedede;
+	padding: 9px 10px;
+	background: rgba(244,244,244,.7);
+}
+
+.channel-link {
+	width: 90%;
+	width: calc(100% - 70px);
+}
+
+.channel-input .channel-submit {
+	margin-left: 8px;
+	width: 60px;
+}
+
+
+.youtube-search {
+	zoom:1;
+	padding: 15px;
+	background: #444;
+	background: rgba(0,0,0,.2);
+	margin-bottom: 20px;
+}
+
+.youtube-search-input {
+	margin-right: 110px;
+}
+
+.youtube-search input {
+	width: 100%;
+	padding: 10px 10px;
+	float: left;
+	border: 0;
+	background: #eee;
+	margin: 0;
+}
+
+.youtube-search input:focus {
+	outline: 0;
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.youtube-searchinput::-webkit-input-placeholder, .youtube-search input:-moz-placeholder, .youtube-search input:-ms-input-placeholder {
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Form submit button */
+.wp-core-ui .youtube-search button {
+	overflow: visible;
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	height: 40px;
+	width: 110px;
+	text-transform: uppercase;
+	border-radius: 0;
+	text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+	box-shadow: none;
+}
+
+.youtube-search .youtube-search button:hover{
+	box-shadow: none;
+	outline: 0;
+}
+
+.wp-core-ui .youtube-search button:after { /* left arrow */
+	content: '';
+	position: absolute;
+	border-color: transparent;
+	border-right-color: inherit; 
+	border-width: 8px 8px 8px 0;
+	border-style: solid solid solid none;
+	top: 12px;
+	left: -6px;
+}
+
+@media screen and (max-width: 782px) {
+	.channel {
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+}
