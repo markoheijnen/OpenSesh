@@ -10,3 +10,6 @@
 [submodule "www/content/mu-plugins/wp-db-driver"]
 	path = www/content/mu-plugins/wp-db-driver
 	url = git://github.com/markoheijnen/wp-db-driver.git
+[submodule "www/content/mu-plugins/mercator"]
+	path = www/content/mu-plugins/mercator
+	url = git://github.com/humanmade/Mercator.git
