@@ -1,3 +1,6 @@
 [submodule "www/wp"]
 	path = www/wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "www/content/mu-plugins/redis-object-cache"]
+	path = www/content/mu-plugins/redis-object-cache
+	url = git://github.com/ericmann/Redis-Object-Cache.git
