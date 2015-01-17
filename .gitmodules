@@ -7,3 +7,6 @@
 [submodule "www/content/mu-plugins/batcache"]
 	path = www/content/mu-plugins/batcache
 	url = git://github.com/Automattic/batcache.git
+[submodule "www/content/mu-plugins/wp-db-driver"]
+	path = www/content/mu-plugins/wp-db-driver
+	url = git://github.com/markoheijnen/wp-db-driver.git
