@@ -71,13 +71,15 @@ define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
 
-/**
- * WordPress Database Table prefix.
- *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
- */
-$table_prefix  = 'wp_';
+if ( ! isset( $table_prefix ) ) {
+	/**
+	 * WordPress Database Table prefix.
+	 *
+	 * You can have multiple installations in one database if you give each a unique
+	 * prefix. Only numbers, letters, and underscores please!
+	 */
+	$table_prefix  = 'wp_';
+}
 
 
 /* That's all, stop editing! Happy blogging. */
