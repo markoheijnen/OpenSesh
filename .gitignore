@@ -1,7 +1,9 @@
 nodejs/cache-channels
 nodejs/node_modules/
 
-www/wp-config.php
+/wp-config.php
 
 www/wp-content/uploads/
 www/wp-content/upgrade/
+
+.DS_Store
