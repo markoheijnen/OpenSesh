@@ -4,3 +4,6 @@
 [submodule "www/content/mu-plugins/redis-object-cache"]
 	path = www/content/mu-plugins/redis-object-cache
 	url = git://github.com/ericmann/Redis-Object-Cache.git
+[submodule "www/content/mu-plugins/batcache"]
+	path = www/content/mu-plugins/batcache
+	url = git://github.com/Automattic/batcache.git
